@@ -1,0 +1,11 @@
+html{
+	background-image: url("greenbg.jpg");
+}
+body{
+	margin: auto 5%;
+	background-color: white;
+	opacity: 0.5;
+}
+section{
+	height: 200px;
+}

@@ -3,7 +3,7 @@ html{
 }
 body{
 	
-	width:80%;
+	width:90%;
 	margin:auto;
 	background-color: white;
 	opacity: 0.75;
@@ -11,15 +11,60 @@ body{
 	
 	font-style:italic;
 	color:black;
+
 }
 input{
-    background-color: rgb(234, 245, 175);
-    max-width:300px;
-    min-width: 250px;
+ 
+    max-width: 550px;
+    min-width: 500px;
     height: 25px;
+    border: 2px solid gray;
+    opacity:1;
+    background-color: white;
 }
+.p1{
+	max-width: 200px;
+	min-width: 150px;
+	margin-right: 40px;
+}
+.p2{
+	max-width: 80px;
+	min-width: 60px;
+	margin-right: 10px;
+}
+#basic_info{
+	margin-left: 5%;
+	display: inline-block;
+}
+#basic_diagnosis{
+	display: inline-block;
+	margin-left: 33%;
+}
+#basic_info,#basic_diagnosis{
+	line-height: 2rem;
+	margin-bottom: 2%;
+	font-weight: bold;
+	color:black;
+}
+
+
+#timeline{
+
+	overflow: auto;
+	overflow-x:hidden;
+	width:500px;
+	height: 600px;
+}
+
+
 #diagnosis input{
 	height: 100px;
+}
+#current_details_form{
+	margin-left:3%;
+	overflow: auto;
+	overflow-x : hidden;
+	height:500px;
 }
 header{
 	height: 100px;
@@ -30,16 +75,22 @@ header{
 	display: flex;
 	flex-direction:row;
 	justify-content:space-around;
+	margin-left: 5%;
 	padding:1%;
 }
 nav{
 	background-color: darkgreen;
+	 max-width:600px;
+    min-width: 500px;
+    margin-bottom: 5px;
+	border-radius: 5px;
+	border:4px solid #C2D369;
 }
 nav ul{
 	display: flex;
 	justify-content:space-around;
 	list-style: none;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
 }
 nav ul li a{
 	text-decoration: none;
